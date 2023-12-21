@@ -15,6 +15,7 @@ body {
   position: absolute;
   background-image: url("badass_skeleton.gif");
   background-size: cover;
+  background-position: 0px -150px;
 }
 
 #left-paddle {

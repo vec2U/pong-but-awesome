@@ -52,11 +52,11 @@ soundArray.push(paddleSound);
 export var scoreSound = new soundFile("silence.mp3");
 soundArray.push(scoreSound);
 
-export var ambientSound = new soundFile("youre_gonna_go_far_kid.mp3");
+export var ambientSound = new soundFile("yggfk_normal_quality.mp3");
 soundArray.push(ambientSound);
 ambientSound.player.loop = true; //turn on looping
 ambientSound.player.volume.value = -5; //turn down volume
-ambientSound.player.playbackRate = 0.5; //it went too fast at first so i had to slow it down
+//ambientSound.player.playbackRate = 0.5; < this is broken for some reason but the audio is going too fast so i need to fix it
 
 export var adventureMusic = new soundFile("silence.mp3");
 soundArray.push(adventureMusic);

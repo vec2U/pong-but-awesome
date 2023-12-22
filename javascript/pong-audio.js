@@ -56,12 +56,11 @@ export var ambientSound = new soundFile("ambience.mp3");
 soundArray.push(ambientSound);
 ambientSound.player.loop = true; //turn on looping
 ambientSound.player.volume.value = -5; //turn down volume
-//ambientSound.player.playbackRate = 0.5; < this is broken for some reason but the audio is going too fast so i need to fix it
 
 export var adventureMusic = new soundFile("youre_gonna_go_far_kid.mp3");
 soundArray.push(adventureMusic);
 adventureMusic.player.loop = true;
-adventureMusic.player.volume.value = -16;
+adventureMusic.player.volume.value = -5;
 
 export var villageMusic = new soundFile("silence.mp3");
 soundArray.push(villageMusic);

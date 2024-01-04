@@ -1,4 +1,4 @@
-lo/*This File creates the sound file players and their default properties
+/*This File creates the sound file players and their default properties
 If you create a new player, be sure to import it at the top of index.js!
 */
 
